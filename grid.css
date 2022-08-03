@@ -1,0 +1,41 @@
+.leftside, .rightside{
+    height: 50vh;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .leftside,
+    
+    .rightside {
+        height: 100vh;
+    }
+}
+
+.leftside{
+    height: 70vh;
+
+}
+
+.rightside{
+    background: rgb(255, 255, 255);
+}
+
+.btn-outline-dark {
+    position:absolute; 
+    right:80px; 
+    top:20px;
+	border-radius: 24px;
+}
+
+.places{
+	width: 100%;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+.bi{
+    position:absolute; 
+    left:80px; 
+    top:20px;
+	border-radius: 24px;
+}
