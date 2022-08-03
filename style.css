@@ -1,0 +1,65 @@
+
+
+.nav-link {
+	font-size: 16px;
+	margin: 3px;
+	color: #fff!important; 
+	font-size: 500;
+}
+
+.navbar-nav {
+	text-align: right;
+	margin-right: 20px;
+} 
+
+.menu-bar .navbar-toggler {
+	padding-right: 20px;
+	outline: none!important;
+	border: none!important
+}
+
+.navbar.fa {
+	color: #fff !important;
+	font-size: 26px;
+}
+
+.nav-link:hover{
+	font-size: 600;
+	border-bottom: 1px solid #fff;
+}
+
+.navbar-brand img{
+	width: 50px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+@media only screen and (max-width: 1000px){
+	.nav-link:hover{
+		border-bottom: none!important;
+	}
+}
+
+
+.btn-outline-light {
+	border-radius: 24px;
+}
+   
+/* .img-fluid{
+	max-width: 200%;
+	height: auto;
+} */
+
+.places{
+	width: 100%;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+.carousel-caption{
+    position:absolute; 
+    right:80px; 
+    top:30px;
+	border-radius: 24px;
+}
+
